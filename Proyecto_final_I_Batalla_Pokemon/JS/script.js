@@ -1,4 +1,4 @@
-// Proyecto final I - Batalla Pokémon
+// Proyecto final I - Batalla Pokemon
 // Autor: [Romani Nicolas]
 // Fecha: [13/06/25]
 
