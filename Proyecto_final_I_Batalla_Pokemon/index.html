@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Batalla Pokemon</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  <h1>Batalla Pokemon</h1>
+
+  <div class="tablero">
+    <div id="equipoA" class="equipo">
+      <h2>Equipo A</h2>
+      <div class="pokemones"></div>
+      <div class="estadisticas">
+        <p id="mayorTiradaA" class="mayor-tirada"></p>
+        <p id="ataqueA" class="resultados-estadisticas"></p>
+        <p id="defensaA" class="resultados-estadisticas"></p>
+      </div>
+      <button id="dadosA">Tirar Dados</button>  <!-- boton que tira los dados del equipo A.  -->
+      <div id="resultadosDadosA" class="tiradas"></div>
+    </div>
+
+    <div class="logo-central">  <!--  Fotito con logo para ponerlo un poco mas fachero.  -->
+      <img id="logoPokemon" src="" alt="Logo Pokemon">
+    </div>
+
+    <div id="equipoB" class="equipo">
+      <h2>Equipo B</h2>
+      <div class="pokemones"></div>
+      <div class="estadisticas">
+        <p id="mayorTiradaB" class="mayor-tirada"></p>
+        <p id="ataqueB" class="resultados-estadisticas"></p>
+        <p id="defensaB" class="resultados-estadisticas"></p> 
+      </div>
+      <button id="dadosB">Tirar Dados</button>  <!--  boton que tira los dados del equipo B.  -->
+      <div id="resultadosDadosB" class="tiradas"></div>
+    </div>
+  </div>
+
+  <div class="acciones">
+    <button id="batalla" disabled>Iniciar Batalla</button> <!--  boton que inicia la batalla (deshabilitado hasta que se tiren los dados)  -->
+  </div>
+
+  <div id="resultado" class="resultado"></div>
+
+  <script src="JS/script.js"></script>
+</body>
+</html>
